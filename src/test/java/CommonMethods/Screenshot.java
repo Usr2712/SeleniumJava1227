@@ -59,5 +59,6 @@ public class Screenshot {
         ImageIO.write(fullPageScreenshot.getImage(), "PNG", new File(path));
 
 
+        System.out.println("Changes Made");
     }
 }
