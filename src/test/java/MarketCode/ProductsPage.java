@@ -1,5 +1,7 @@
 package MarketCode;
 
+
+import CommonMethods.Log4jLogger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,9 +12,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
+import org.apache.logging.log4j.Logger;
+
 public class ProductsPage {
 
-
+    private static final Logger log = Log4jLogger.getLogger(ProductsPage.class);
 
     private WebDriver driver;
 
@@ -43,6 +47,7 @@ public class ProductsPage {
 
     public void SearchForProduct(String Product){
 
+        log.info("Clicking Searchbar");
         searchbar.click();
         searchbar.sendKeys(Product);
 
@@ -74,6 +79,8 @@ public class ProductsPage {
     }
 
     public void AddItemstoCartasAsked(int NumberOfItems){
+
+        log.info("adding Items");
 
         for(int i = 1 ;i<NumberOfItems ;i++){
 

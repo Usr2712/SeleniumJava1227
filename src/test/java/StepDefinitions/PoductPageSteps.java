@@ -1,5 +1,7 @@
 package StepDefinitions;
 
+
+import CommonMethods.Log4jLogger;
 import MarketCode.ProductsPage;
 import StepDefinitions.DriverInitialization;
 import com.beust.ah.A;
@@ -7,18 +9,26 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 
 public class PoductPageSteps {
 
+
+    static {
+        System.setProperty("log4j2.configurationFile", "src/test/resources/log4j2.xml");
+    }
+
     ProductsPage productsPage = new ProductsPage(DriverInitialization.getDriver());
 
-
+    private static final Logger log = Log4jLogger.getLogger(PoductPageSteps.class);
 
     @When("User searches for {string} in the search bar")
     public void userSearchesForInTheSearchBar(String product) {
 
         productsPage.SearchForProduct(product);
+        log.info("Clicking Searchbar from step defs");
+
 
     }
 
