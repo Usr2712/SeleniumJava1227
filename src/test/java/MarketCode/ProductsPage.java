@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
 
 public class ProductsPage {
 
@@ -83,7 +84,6 @@ public class ProductsPage {
         log.info("adding Items");
 
         for(int i = 1 ;i<NumberOfItems ;i++){
-
 
 
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));

@@ -1,40 +1,96 @@
-/*
 package CommonMethods;
 
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.File;
-import java.io.FileOutputStream;
+
+import java.io.*;
 
 public class ExcelCommoncode {
 
-    Workbook workbook;
-    Sheet sheet
+   static Workbook workbook;
+   static Sheet sheet;
+   static FileInputStream fis;
+   static  FileOutputStream fo;
 
-    public void ExcelWriteLogic(String sheetname ,String Column1,String Column2,String Column3){
+   static Row row;
+   static Cell cell;
+
+    public static int getRowCount (String Filepath ,String SheetName) throws IOException {
 
 
+        fis = new FileInputStream(Filepath);
+        workbook = new XSSFWorkbook(fis);
+        sheet = workbook.getSheet(SheetName);
 
-        workbook = new XSSFWorkbook();
-         sheet = workbook.createSheet(sheetname);
+        int TotalRowsCount = sheet.getLastRowNum();
 
-        Row row = sheet.createRow(0);
-        row.createCell(0).setCellValue(Column1);
-        row.createCell(1).setCellValue(Column2);
-        row.createCell(1).setCellValue();
+        workbook.close();
+        fis.close();
 
-        for (int i = 0; i < Companies.size(); i++) {
+        return TotalRowsCount;
 
-            row = sheet.createRow(i + 1);
-            row.createCell(0).setCellValue(Companies.get(i).getText());
-            row.createCell(1).setCellValue(Contact.get(i).getText());
-            row.createCell(2).setCellValue(Country.get(i).getText());
-            File file = new File("D:\\AutomtionCMS\\NationDetails.xlsx");
-            FileOutputStream fileOut = new FileOutputStream(file);
-            workbook.write(fileOut);
     }
+
+    public static int getColumnCount (String Filepath ,String SheetName , int Rownum) throws IOException {
+
+
+        fis = new FileInputStream(Filepath);
+        workbook = new XSSFWorkbook(fis);
+        sheet = workbook.getSheet(SheetName);
+         row =sheet.getRow(Rownum);
+
+
+        int TotalCellCount = row.getLastCellNum();
+
+        workbook.close();
+        fis.close();
+
+        return TotalCellCount;
+    }
+
+    public static String getCellData(String Filepath,String SheetName ,int Rownum ,int CellNum) throws IOException {
+
+
+        fis = new FileInputStream(Filepath);
+        workbook = new XSSFWorkbook(fis);
+        sheet = workbook.createSheet(SheetName);
+        row =sheet.getRow(Rownum);
+        cell = row.getCell(CellNum);
+
+        String data;
+
+        try{
+
+           // data=cell.toString();
+
+            DataFormatter dataFormatter = new DataFormatter();
+            data=dataFormatter.formatCellValue(cell);
+        } catch (Exception e) {
+
+            data="";
+        }
+
+        workbook.close();
+        fis.close();
+
+        return data;
+    }
+
+    public static void setCellData(String Filepath,String SheetName ,int Rownum ,int ColumnNum,String data) throws IOException {
+
+        fis = new FileInputStream(Filepath);
+        workbook = new XSSFWorkbook(fis);
+        sheet = workbook.getSheet(SheetName);
+        row =sheet.getRow(Rownum);
+        cell = row.createCell(ColumnNum);
+        cell.setCellValue(data);
+        fo = new FileOutputStream(Filepath);
+        workbook.write(fo);
+        workbook.close();
+        fo.close();
+
+    }
+
+
 }
-*/

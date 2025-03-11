@@ -1,8 +1,10 @@
 package CommonMethods;
 
 import StepDefinitions.ExtentReportManager;
+import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.testng.ITestContext;
@@ -11,7 +13,7 @@ import org.testng.ITestResult;
 
 public class ExtentTestngListener implements ITestListener {
 
-    private ExtentTest test;
+    /*private ExtentTest test;
     public String scenarioName;
 
 
@@ -46,6 +48,34 @@ public class ExtentTestngListener implements ITestListener {
 
 
 
+*/
+    private static ExtentReports extent;
+    private static ExtentTest scenarioTest;
+
+
+    static {
+        ExtentSparkReporter sparkReporter = new ExtentSparkReporter("test-output/ExtentReport.html");
+        extent = new ExtentReports();
+        extent.attachReporter(sparkReporter);
+    }
+    public static void startScenario(String scenarioName) {
+
+        scenarioTest = extent.createTest(scenarioName);
+    }
+    public static void logFailure(String message) {
+        scenarioTest.fail(message); // This correctly marks it as FAILED
+    }
+
+    public static void logPass(String message) {
+        scenarioTest.pass(message); // This correctly marks it as PASSED
+    }
+
+    public static void logStep(String message) {
+        scenarioTest.info(message);
+    }
+    public static void tearDownReport() {
+        extent.flush();
+    }
 
 
 

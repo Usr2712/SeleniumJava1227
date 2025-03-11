@@ -7,7 +7,7 @@ import org.testng.annotations.DataProvider;
 @CucumberOptions(
         features = "D:\\Users\\Sairaghavendra\\IdeaProjects\\SeleniumJava1227\\src\\test\\resources\\features\\Market.feature",
         glue = "StepDefinitions",
-        tags = "@Functionality271227",
+        tags = "@Functionality1227",
         plugin = {"pretty", "html:target/cucumber-reports"}
 )
 

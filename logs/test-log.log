@@ -1,3 +1,96 @@
 2025-02-21 19:51:46 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
 2025-02-21 19:51:47 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
 2025-02-21 19:51:47 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-10 15:27:08 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 15:27:12 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 15:27:12 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-10 15:47:52 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 15:47:53 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 15:47:53 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-10 15:48:51 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 15:48:52 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 15:48:52 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-10 15:52:19 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 15:52:19 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 15:52:19 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-10 15:54:39 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 15:54:40 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 15:54:40 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-10 16:02:04 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 16:02:04 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 16:02:04 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-10 16:03:25 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 16:03:26 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 16:03:26 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-10 16:05:21 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 16:05:21 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 16:05:33 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 16:05:34 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 16:05:34 [main] INFO  MarketCode.ProductsPage - adding Items
+2025-03-10 16:07:00 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 16:07:03 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 16:07:11 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 16:07:12 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 16:07:12 [main] INFO  MarketCode.ProductsPage - adding Items
+2025-03-10 16:21:23 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 16:21:23 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 16:21:34 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 16:21:35 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 16:21:35 [main] INFO  MarketCode.ProductsPage - adding Items
+2025-03-10 16:22:05 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 16:22:05 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 16:22:16 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 16:22:17 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 16:22:17 [main] INFO  MarketCode.ProductsPage - adding Items
+2025-03-10 16:23:53 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 16:23:53 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 16:24:05 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-10 16:24:06 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-10 16:24:06 [main] INFO  MarketCode.ProductsPage - adding Items
+2025-03-11 15:47:04 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 15:47:06 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 15:47:16 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 15:47:17 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 15:47:17 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-11 16:00:03 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:00:05 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:00:17 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:00:18 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:00:18 [main] INFO  MarketCode.ProductsPage - adding Items
+2025-03-11 16:00:44 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:00:44 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:00:59 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:01:00 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:01:00 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-11 16:03:03 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:03:06 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:03:19 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:03:22 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:03:22 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-11 16:05:32 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:05:32 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:06:40 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:06:41 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:06:48 [main] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:06:48 [main] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:06:48 [main] INFO  MarketCode.ProductsPage - adding Items
+2025-03-11 16:07:12 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:07:12 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:07:24 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:07:25 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:07:25 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-11 16:07:44 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:07:45 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:07:56 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:07:57 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:07:57 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-11 16:09:25 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:09:26 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:09:26 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-11 16:09:36 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:09:38 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:17:17 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:17:17 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs
+2025-03-11 16:17:17 [TestNG-tests-1] INFO  MarketCode.ProductsPage - adding Items
+2025-03-11 16:17:31 [TestNG-tests-1] INFO  MarketCode.ProductsPage - Clicking Searchbar
+2025-03-11 16:17:31 [TestNG-tests-1] INFO  StepDefinitions.PoductPageSteps - Clicking Searchbar from step defs

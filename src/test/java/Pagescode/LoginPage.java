@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 import java.io.IOException;
@@ -50,7 +51,8 @@ ExcelReaderFile excelReaderFile = new ExcelReaderFile();
         propertReader.readPropertyfile();
 
             driver.get(propertReader.getProperty("MarketUrl"));
-        // Switch to the alert
+        Assert.assertTrue(true);
+
 
 
 

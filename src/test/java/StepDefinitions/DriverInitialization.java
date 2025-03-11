@@ -10,7 +10,7 @@ public class DriverInitialization {
     private static WebDriver driver;
 
 
-    @Before
+    @Before(order = 1)
     public void Driverinit(){
 
         WebDriverManager.chromedriver().setup();
